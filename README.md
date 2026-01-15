@@ -16,7 +16,7 @@ El código implementa un `ChangeNotifier` para manejar el estado y un `Consumer`
 dependencies:
   flutter:
     sdk: flutter
-  device_info_plus: ^12.1.0   # Asegúrate de usar la última versión
+  device_info_plus: ^11.2.2   # Asegúrate de usar esta versión
   provider: ^6.0.0            # Para manejar el estado con ChangeNotifier
 ```
 
