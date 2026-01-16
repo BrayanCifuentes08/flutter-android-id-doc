@@ -46,7 +46,7 @@ class AndroidIdNotifier extends ChangeNotifier {
     try {
       final deviceInfo = DeviceInfoPlugin();
       final androidInfo = await deviceInfo.androidInfo;
-      _androidId = androidInfo.androidId; //  Captura del Android ID
+      _androidId = androidInfo.id; //  Captura del Android ID
     } catch (e) {
       _androidId = "No disponible";
     }
